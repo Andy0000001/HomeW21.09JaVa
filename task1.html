@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        //Задача 1
+        prompt("Задание 1" + "\nПривет, пользователь !" + " \nВпиши свой год рождения !", " Год рождения...");
+    </script>
+
+
+    <script>
+        //Задача 2
+        var Answer = prompt("Задание 2" + "\nПривет, пользователь !" + " \nВпиши любую сторону квадрата !", " Сторона квадрата");
+        confirm("Твой ответ это:\n" + Answer + "\nПравильно?");
+        alert("Квадрат будет иметь стороны - " + Answer);
+    </script>
+
+    <script>
+        //Задача 3
+        var Answer = prompt("Задание 3" + "\nПривет, пользователь !" + " \nВпиши радиус круга !", " Радиус круга");
+        var b = 3.14;
+        var c = Answer ** 2 * b;
+        alert("Площадь круга ровна - " + Answer ** 2 + " * " + b + " = " + c);
+    </script>
+
+    <script>
+        //Задача 4
+        var Answer1 = prompt("Задание 4" + "\nПривет, пользователь !" + " \nУкажи расстояние между Екатеринбургом и Москвой в КМ", " Расстояние в КМ");
+        var Answer2 = prompt("Укажи за сколько часов ты хотел бы добраться до туда", " Время в часах");
+        var c = Answer1 / Answer2;
+        alert("Твоя скорость должна быть равна - " + Answer1 + " / " + Answer2 + " = " + c);
+    </script>
+
+    <script>
+        //Задача 5
+        var Answer1 = prompt("Задание 5" + "\nПривет, пользователь !" + " \nВведи сумму в Долларах", " Сумма...");
+        var b = 0.85;
+        var c = Answer1 * b;
+        alert("Твоя сумма в Евро - " + c);
+    </script>
+
+    <script>
+        //Задача 6
+        var Answer1 = prompt("Задание 6" + "\nПривет, пользователь !" + " \nУкажи объем своей флэшки в ГБ", " ГБ...");
+        var aNswer2 = Answer1 * 1000;
+        var b = 820;
+        var c = aNswer2 / b;
+        alert("Столько файлов размером 820 МБ поместиться на флэшку - " + c);
+    </script>
+
+    <script>
+        //Задача 7
+        var Answer1 = prompt("Задание 7" + "\nПривет, пользователь !" + " \nУкажи сумму денег в кошельке", " Рубли...");
+        var Answer2 = prompt("Укажи цену продукта в рублях", " Рубли...");
+        var c = Answer1 - Answer2;
+        alert("Твоя сдача равна - " + Answer1 + " - " + Answer2 + " = " + c);
+        var aNswer1 = Answer1 / Answer2;
+        alert("На эту сумму - " + Answer1 + " , ты можешь купить " + " - " + aNswer1 + " едениц продукта " );
+    </script>
+</body>
+
+</html
